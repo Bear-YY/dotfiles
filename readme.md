@@ -11,7 +11,7 @@ mv ~/.vim ~/tmp
 
 ```
 
-git cloneして、シンボリックを貼る
+git cloneして、シンボリックリンクを張る
 
 ```
 git clone https://github.com/<your account>/dotfiles.git
