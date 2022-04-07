@@ -1,0 +1,364 @@
+{
+    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+    "files.trimTrailingWhitespace": true,
+    // 半角スペースを可視化する
+    "editor.renderWhitespace": "all",
+    "vim.leader": "<space>",
+    "vim.easymotion": true,
+    "vim.easymotionKeys": "sdfghjkl",
+    "vim.useCtrlKeys": true,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "1",
+                "0",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "after": [
+                "1",
+                "0",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "k"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "j"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "2",
+                "s",
+                "<char>",
+                "<char>"
+            ]
+        },
+        // Insert blank line on above
+        {
+            "before": [
+                "<Leader>",
+                "O"
+            ],
+            "after": [
+                "O",
+                "<Esc>"
+            ]
+        },
+        // Insert blank line on under
+        {
+            "before": [
+                "<Leader>",
+                "o"
+            ],
+            "after": [
+                "o",
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "u"
+            ],
+            "commands": [
+                {
+                    "command": "undo"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "commands": [
+                {
+                    "command": "redo"
+                }
+            ]
+        },
+        {
+            "before": [
+                "x"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "x"
+            ]
+        },
+        {
+            "before": [
+                "s"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "s"
+            ]
+        },
+        {
+            "before": [
+                "j"
+            ],
+            "after": [
+                "g",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "k"
+            ],
+            "after": [
+                "g",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "n"
+            ],
+            "after": [
+                "n",
+                "z",
+                "z"
+            ]
+        },
+        {
+            "before": [
+                "N"
+            ],
+            "after": [
+                "N",
+                "z",
+                "z"
+            ]
+        },
+        {
+            "before": [
+                "*"
+            ],
+            "after": [
+                "*",
+                "z",
+                "z"
+            ]
+        },
+        {
+            "before": [
+                "#"
+            ],
+            "after": [
+                "#",
+                "z",
+                "z"
+            ]
+        },
+        {
+            "before": [
+                "<Enter>"
+            ],
+            "commands": [
+                "editor.action.insertlineafter"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "c"
+            ],
+            "commands": [
+                {
+                    "command": "editor.action.commentLine"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "w"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "q"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "h"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "l"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "m"
+            ],
+            "after": [
+                "%"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "z"
+            ],
+            "commands": [
+                ":noh"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "a"
+            ],
+            "after": [
+                "g",
+                "g",
+                "V",
+                "G"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "after": [
+                 "g",
+                 "b"
+            ]
+        },
+    ],
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                ";",
+                ";"
+            ],
+            "commands": [
+                "editor.action.triggerSuggest"
+            ]
+        },
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<Leader>",
+                "l"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "h"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "m"
+            ],
+            "after": [
+                "%"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>",
+            ],
+            "after": [
+                "g",
+                "b"
+            ]
+        }
+    ],
+    "editor.lineNumbers": "relative",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "bracketPairColorizer.depreciation-notice": false,
+    "extensions.ignoreRecommendations": true,
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#161821",
+        "statusBar.noFolderBackground": "#161821",
+        "statusBar.debuggingBackground": "#161821",
+        "statusBar.foreground": "#818596",
+        "statusBar.debuggingForeground": "#818596"
+    },
+}
