@@ -41,6 +41,9 @@ set autoindent
 " 改行時に入力された行の末尾に合わせて次の行のインデントを増減する
 set smartindent
 
+"vimgrepを使ったとき自動でQuickfix-windowが立ち上がる
+autocmd QuickfixCmdPost make,grep,grepadd,vimgrep tab cwindow
+
 "leader and keybindings
 let mapleader = "\<Space>"
 noremap <Leader>l $
@@ -56,6 +59,9 @@ cmap <C-v> <C-v>
 inoremap <silent> jj <ESC>
 noremap <C-j> 10j
 noremap <C-k> 10k
+"Quickfix-window
+map <silent> <C-p> :<C-u>cprev<CR>
+map <silent> <C-n> :<C-u>cnext<CR>
 
 "colorScheme settings
 colorscheme elly
