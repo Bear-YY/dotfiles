@@ -42,7 +42,7 @@ set autoindent
 set smartindent
 
 "vimgrepを使ったとき自動でQuickfix-windowが立ち上がる
-autocmd QuickfixCmdPost make,grep,grepadd,vimgrep tab cwindow
+autocmd QuickfixCmdPost vim,make,grep,grepadd,vimgrep tab cwindow
 
 "leader and keybindings
 let mapleader = "\<Space>"
