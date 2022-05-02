@@ -60,8 +60,8 @@ inoremap <silent> jj <ESC>
 noremap <C-j> 10j
 noremap <C-k> 10k
 "Quickfix-window
-map <silent> <C-p> :<C-u>cprev<CR>
-map <silent> <C-n> :<C-u>cnext<CR>
+nnoremap <silent> <C-p> :<C-u>cprev<CR>
+nnoremap <silent> <C-n> :<C-u>cnext<CR>
 
 "colorScheme settings
 colorscheme elly
